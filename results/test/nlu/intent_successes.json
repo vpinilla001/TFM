@@ -1,0 +1,674 @@
+[
+  {
+    "text": "olaa",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9792146682739258
+    }
+  },
+  {
+    "text": "que tal, buenos días",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9905445575714111
+    }
+  },
+  {
+    "text": "hola hola",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9948690533638
+    }
+  },
+  {
+    "text": "Buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9673173427581787
+    }
+  },
+  {
+    "text": "¿Cómo has estado?",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.5728373527526855
+    }
+  },
+  {
+    "text": "Excelente",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "buen_humor",
+      "confidence": 0.9904531240463257
+    }
+  },
+  {
+    "text": "Bn",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "buen_humor",
+      "confidence": 0.7202813625335693
+    }
+  },
+  {
+    "text": "¡Qué bien hecho!",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "buen_humor",
+      "confidence": 0.90729159116745
+    }
+  },
+  {
+    "text": "Perfek",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "buen_humor",
+      "confidence": 0.9779367446899414
+    }
+  },
+  {
+    "text": "grcss",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "agradecer",
+      "confidence": 0.4654909670352936
+    }
+  },
+  {
+    "text": "Mil gracas",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "agradecer",
+      "confidence": 0.3879531919956207
+    }
+  },
+  {
+    "text": "thnks",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "agradecer",
+      "confidence": 0.8814540505409241
+    }
+  },
+  {
+    "text": "Muchisisisimas gracias",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "agradecer",
+      "confidence": 0.8043462038040161
+    }
+  },
+  {
+    "text": "ads",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.8365199565887451
+    }
+  },
+  {
+    "text": "adew",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.8162192702293396
+    }
+  },
+  {
+    "text": "hasta mñn",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9674285650253296
+    }
+  },
+  {
+    "text": "Hasta la vista",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.8535719513893127
+    }
+  },
+  {
+    "text": "Hablamos",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9644710421562195
+    }
+  },
+  {
+    "text": "Adiosssss",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9971042275428772
+    }
+  },
+  {
+    "text": "img de un tag",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.5387825965881348
+    }
+  },
+  {
+    "text": "Pintame la gráfica de un identificador",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.9981822967529297
+    }
+  },
+  {
+    "text": "Nos haria falta la grafca de un dato",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.8644897937774658
+    }
+  },
+  {
+    "text": "Representa la var cic0010",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.9715781807899475
+    }
+  },
+  {
+    "text": "Enseñame el aspecto que",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.879185140132904
+    }
+  },
+  {
+    "text": "De CIC0001 enseñanos la forma de los datos",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.8635098934173584
+    }
+  },
+  {
+    "text": "¿Como es el dibujo de la señal cic0001?",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.955948531627655
+    }
+  },
+  {
+    "text": "Buscame la grafica de cic0003",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.9932230710983276
+    }
+  },
+  {
+    "text": "Necesitamos urgentemente una imagen",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.8448247909545898
+    }
+  },
+  {
+    "text": "Para las fechas 2017-05-26 hasta 2018-07-12, ¿cual es la grfc de cic0002?",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.4129489064216614
+    }
+  },
+  {
+    "text": "Queremos ver los datos de señal cic0006",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.8767073750495911
+    }
+  },
+  {
+    "text": "Para cic0009 quiero la serie",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9868141412734985
+    }
+  },
+  {
+    "text": "¿me puedes imprimir la gráfica de los datos temporales?",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9711396098136902
+    }
+  },
+  {
+    "text": "Para los días entre 2016-11-11 y 2017-08-04 imprimeme la serie temporal",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9982138872146606
+    }
+  },
+  {
+    "text": "Hazme un plot de la serie",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9776548147201538
+    }
+  },
+  {
+    "text": "te puedo pedir la grafica de para serie temporal?",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9897866249084473
+    }
+  },
+  {
+    "text": "que te parece si te pido para cic0009 que me imprimas la forma de sus datos temporales",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.8485757112503052
+    }
+  },
+  {
+    "text": "Me solicitan la imagen de la serie temporal de una var",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9926640391349792
+    }
+  },
+  {
+    "text": "Necesitaría ver las cifras temporales, puedes darmela de cic0006?",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9452413320541382
+    }
+  },
+  {
+    "text": "necesito ver que forma tiene la serie temporal de CIC0007",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.9722387194633484
+    }
+  },
+  {
+    "text": "Para la sñal cic0010 y las fechs 2017-01-12 y 2017-06-24 quiero ver como es su serie",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.8033239841461182
+    }
+  },
+  {
+    "text": "La img d una sre",
+    "intent": "grafica_serie",
+    "intent_prediction": {
+      "name": "grafica_serie",
+      "confidence": 0.27830663323402405
+    }
+  },
+  {
+    "text": "Para cic0008 necesitamos visualizar las barras",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.9919732809066772
+    }
+  },
+  {
+    "text": "Quiero un plot del hist para cic0012 entre 2016-14-14 y 2016-03-14",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.3376358449459076
+    }
+  },
+  {
+    "text": "Nos solicitan un histograma para cic0008, puedes proporcinarlo?",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.9577417373657227
+    }
+  },
+  {
+    "text": "Me gustaría visualizar en forma de histograma los valores de una variable",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.9666856527328491
+    }
+  },
+  {
+    "text": "Comparteme entre 2016-24-11 y 2017-06-19  la img de un hist",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.29661616683006287
+    }
+  },
+  {
+    "text": "podriamos solicitarte una imagen con barras para un determinado id",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.8520582318305969
+    }
+  },
+  {
+    "text": "Devuelveme la imagen esa de las barras, no recuerdo su nombre",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.5337958931922913
+    }
+  },
+  {
+    "text": "Tienes porai el histograma de CIC0009, imprimemelo",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.9784360527992249
+    }
+  },
+  {
+    "text": "Para el tag CIC0005 que forma tiene su hist",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.8778862953186035
+    }
+  },
+  {
+    "text": "podrias enseñarme el hist pra una sñl, porfa",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.7159751057624817
+    }
+  },
+  {
+    "text": "Para los dias entre 2018-01-16 y 2018-03-17 dame las barras",
+    "intent": "grafica_hist",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.7996394038200378
+    }
+  },
+  {
+    "text": "Me solitan la unidad del tag",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.9383120536804199
+    }
+  },
+  {
+    "text": "Oye qiero info de unaa var",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.914441704750061
+    }
+  },
+  {
+    "text": "No se lo que es cic0002, ¿ me la describes=",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.8451386094093323
+    }
+  },
+  {
+    "text": "Me dices la info de cic0006 por favor",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.8165436387062073
+    }
+  },
+  {
+    "text": "Quiero las unds de una señal",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.5349069833755493
+    }
+  },
+  {
+    "text": "ahora necesitamos q me des la unidad de otra var",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.9287624955177307
+    }
+  },
+  {
+    "text": "De cic0010 dame todo lo que tengas disponible",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.9912979006767273
+    }
+  },
+  {
+    "text": "el tipo y descripcion de cic0006 por favor",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.9949685335159302
+    }
+  },
+  {
+    "text": "Me gustaría cononer lo que sabes de CIC0003",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.8644232153892517
+    }
+  },
+  {
+    "text": "Pra cic0011 neceaitamos conocr la unid",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.8138981461524963
+    }
+  },
+  {
+    "text": "Nos solicitn inf de una variable",
+    "intent": "informacion",
+    "intent_prediction": {
+      "name": "informacion",
+      "confidence": 0.632483720779419
+    }
+  },
+  {
+    "text": "necesito un análisis descriptivo de los datos",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9985548853874207
+    }
+  },
+  {
+    "text": "calculame los estadisticos de cic0011",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9830276370048523
+    }
+  },
+  {
+    "text": "Nos hace flta un un resumn de los datos",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.8400365710258484
+    }
+  },
+  {
+    "text": "danos los estadisticos desde el día 2017-12-06 hasta l día 2018-08-27 de cic0005",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9851876497268677
+    }
+  },
+  {
+    "text": "Necesitaría los detalles metricos de una variable, ¿puedes darmelos?",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.998216450214386
+    }
+  },
+  {
+    "text": "Queremos un sumario del id cic0004 lo antes posible",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.8593915700912476
+    }
+  },
+  {
+    "text": "quiero que me des la media y los percentils entre 2016-02-26 y 2017-07-17",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9964412450790405
+    }
+  },
+  {
+    "text": "¿podrias entregarme un resumen del id siguiente, cic0003?",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.8641911745071411
+    }
+  },
+  {
+    "text": "Dame los est. de una variable",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.36117640137672424
+    }
+  },
+  {
+    "text": "Las mmetrcas de CIC0006",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.7514095306396484
+    }
+  },
+  {
+    "text": "Dame la info estadística dsd el día 2018-02-16 asta el día 2018-08-17",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.4248580038547516
+    }
+  },
+  {
+    "text": "Entre las fhas 2013-04-26 hasta el día 2017-07-20 quiero q me proporcions unas metricas",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9942750334739685
+    }
+  },
+  {
+    "text": "Para cic0003 me piden la media",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9897716641426086
+    }
+  },
+  {
+    "text": "Desde la fecha 2017-04-16 hasta el día 2018-07-25 quiero un sumario de un tag",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9694785475730896
+    }
+  },
+  {
+    "text": "Dme ls metrics d una snl",
+    "intent": "descripcion",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.9854616522789001
+    }
+  },
+  {
+    "text": "cc0002",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.9989498257637024
+    }
+  },
+  {
+    "text": "cic001",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.9996592998504639
+    }
+  },
+  {
+    "text": "del identificador cic0001",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.7566247582435608
+    }
+  },
+  {
+    "text": "var CIC0001",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.9986717104911804
+    }
+  },
+  {
+    "text": "CICI001",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.9986750483512878
+    }
+  },
+  {
+    "text": "numero cic0005",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "dar_senal",
+      "confidence": 0.9947448968887329
+    }
+  }
+]

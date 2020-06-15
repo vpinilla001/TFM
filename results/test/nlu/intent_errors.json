@@ -1,0 +1,58 @@
+[
+  {
+    "text": "ei",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "buen_humor",
+      "confidence": 0.38232696056365967
+    }
+  },
+  {
+    "text": "Guay",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.7052397131919861
+    }
+  },
+  {
+    "text": "Espectacular",
+    "intent": "buen_humor",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.8726433515548706
+    }
+  },
+  {
+    "text": "Un millon de grcs",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.6526447534561157
+    }
+  },
+  {
+    "text": "No tengo palabras para agradecerte",
+    "intent": "agradecer",
+    "intent_prediction": {
+      "name": "grafica_hist",
+      "confidence": 0.37719011306762695
+    }
+  },
+  {
+    "text": "me imprimes entre 2016-03-06 hasta 2017-01-22 una snl",
+    "intent": "grafica",
+    "intent_prediction": {
+      "name": "descripcion",
+      "confidence": 0.5328066349029541
+    }
+  },
+  {
+    "text": "0012",
+    "intent": "dar_senal",
+    "intent_prediction": {
+      "name": "grafica",
+      "confidence": 0.5489506125450134
+    }
+  }
+]

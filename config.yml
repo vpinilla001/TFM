@@ -1,0 +1,29 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: es
+pipeline:
+  - name: WhitespaceTokenizer
+  - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
+  - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: "char_wb"
+    min_ngram: 1
+    max_ngram: 4
+  - name: DIETClassifier
+    epochs: 100
+    use_masked_language_model: False
+  - name: EntitySynonymMapper
+
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: MemoizationPolicy
+    max_history: 3
+  - name: KerasPolicy
+  - name: MappingPolicy
+  - name: FallbackPolicy
+    nlu_threshold: 0.5
+    core_threshold: 0.5
+    fallback_action_name: "my_fallback_action"

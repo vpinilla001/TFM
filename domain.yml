@@ -1,0 +1,136 @@
+session_config:
+  session_expiration_time: 10
+  carry_over_slots_to_new_session: true
+intents:
+- saludo
+- despedida
+- buen_humor
+- agradecer
+- grafica
+- grafica_serie
+- grafica_hist
+- informacion
+- descripcion
+- mark
+- color
+- dar_senal
+- feedback
+entities:
+- senal
+- fecha
+- tipo_grafica
+- mark_value
+- color_value
+- descripcion
+- tipo
+- unidad
+- feedback_value
+slots:
+  color_value:
+    type: categorical
+    values:
+    - rojo
+    - azul
+    - verde
+    - __other__
+  descripcion:
+    type: text
+  fecha:
+    type: text
+  feedback_value:
+    type: categorical
+    values:
+    - positivo
+    - negativo
+    - __other__
+  mark_value:
+    type: categorical
+    values:
+    - si
+    - no
+    - __other__
+  senal:
+    type: text
+  tipo:
+    type: text
+  tipo_grafica:
+    type: categorical
+    values:
+    - serie
+    - histograma
+    - __other__
+  unidad:
+    type: text
+responses:
+  utter_saludo:
+  - text: ¡Hola! Mi nombre es Botito, ¿en qué te puedo ayudar?
+  - text: Buenos días, ¿qué necesitas?
+  - text: Hola hola
+  utter_despedida:
+  - text: ¡Adiós!
+  - text: ¡Hasta pronto!
+  - text: ¡Hasta la próxima!😊
+  - text: ¡Ciao, ciao!
+  utter_buen_humor:
+  - text: 👌
+  - text: 😊
+  utter_agradecer:
+  - text: No hay de que😀
+  - text: De nada, si necetas algo más aquí estoy
+  - text: De nada, no dudes en consultarme si tienes más dudas
+  utter_ask_senal:
+  - text: ¿Sobre que señal lo desea?
+  - text: ¿Para qué señal?
+  utter_ask_tipo_grafica:
+  - buttons:
+    - payload: /grafica{"tipo_grafica":"serie"}
+      title: Serie temporal
+    - payload: /grafica{"tipo_grafica":"histograma"}
+      title: Histograma
+    text: ¿Que tipo de gráfica desea?
+  utter_ask_tipo_serie:
+  - buttons:
+    - payload: /mark{"mark_value":"no"}
+      title: Sin marcar los puntos
+    - payload: /mark{"mark_value":"si"}
+      title: Marcando los puntos
+    text: ¿Cómo desea la gráfica de la serie?
+  utter_ask_tipo_hist:
+  - buttons:
+    - payload: /color{"color_value":"azul"}
+      title: Azul
+    - payload: /color{"color_value":"rojo"}
+      title: Roja
+    - payload: /color{"color_value":"verde"}
+      title: Verde
+    text: ¿De qué color desea las barras del histograma?
+  utter_ask_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positivo"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negativo"}
+      title: 👎
+    text: ¿Cómo ha ido la conversación?
+  utter_feedback_pos:
+  - text: ¡Estupendo!🎉
+  - text: Muchas gracias por tu colaboración.
+  utter_feedback_neg:
+  - text: Gracias, lo tendremos en cuenta para mejorar nuestro servicio.
+  - text: De acuerdo, seguiremos mejorando nuestro servicio.
+actions:
+- utter_saludo
+- utter_despedida
+- utter_buen_humor
+- utter_agradecer
+- utter_ask_senal
+- utter_ask_tipo_grafica
+- utter_ask_tipo_serie
+- utter_ask_tipo_hist
+- action_grafica_serie
+- action_grafica_hist
+- action_informacion
+- action_descripcion
+- my_fallback_action
+- utter_ask_feedback
+- utter_feedback_pos
+- utter_feedback_neg

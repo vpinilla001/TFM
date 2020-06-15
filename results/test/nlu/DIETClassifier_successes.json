@@ -1,0 +1,1458 @@
+[
+  {
+    "text": "Representa la var cic0010",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "cic0010",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 18,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "cic0010"
+      }
+    ]
+  },
+  {
+    "text": "De CIC0001 enseñanos la forma de los datos",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "CIC0001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 3,
+        "end": 10,
+        "extractor": "DIETClassifier",
+        "value": "CIC0001"
+      }
+    ]
+  },
+  {
+    "text": "me imprimes entre 2016-03-06 hasta 2017-01-22 una snl",
+    "entities": [
+      {
+        "start": 18,
+        "end": 28,
+        "value": "2016-03-06",
+        "entity": "fecha"
+      },
+      {
+        "start": 35,
+        "end": 45,
+        "value": "2017-01-22",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 18,
+        "end": 28,
+        "extractor": "DIETClassifier",
+        "value": "2016-03-06"
+      },
+      {
+        "entity": "fecha",
+        "start": 35,
+        "end": 45,
+        "extractor": "DIETClassifier",
+        "value": "2017-01-22"
+      }
+    ]
+  },
+  {
+    "text": "¿Como es el dibujo de la señal cic0001?",
+    "entities": [
+      {
+        "start": 31,
+        "end": 38,
+        "value": "cic0001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 31,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "cic0001"
+      }
+    ]
+  },
+  {
+    "text": "Buscame la grafica de cic0003",
+    "entities": [
+      {
+        "start": 22,
+        "end": 29,
+        "value": "cic0003",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 22,
+        "end": 29,
+        "extractor": "DIETClassifier",
+        "value": "cic0003"
+      }
+    ]
+  },
+  {
+    "text": "Para las fechas 2017-05-26 hasta 2018-07-12, ¿cual es la grfc de cic0002?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "2017-05-26",
+        "entity": "fecha"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "2018-07-12",
+        "entity": "fecha"
+      },
+      {
+        "start": 65,
+        "end": 72,
+        "value": "cic0002",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 16,
+        "end": 26,
+        "extractor": "DIETClassifier",
+        "value": "2017-05-26"
+      },
+      {
+        "entity": "fecha",
+        "start": 33,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "2018-07-12"
+      },
+      {
+        "entity": "senal",
+        "start": 65,
+        "end": 72,
+        "extractor": "DIETClassifier",
+        "value": "cic0002"
+      }
+    ]
+  },
+  {
+    "text": "Queremos ver los datos de señal cic0006",
+    "entities": [
+      {
+        "start": 32,
+        "end": 39,
+        "value": "cic0006",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 32,
+        "end": 39,
+        "extractor": "DIETClassifier",
+        "value": "cic0006"
+      }
+    ]
+  },
+  {
+    "text": "Para cic0009 quiero la serie",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "cic0009",
+        "entity": "senal"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "value": "serie",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 5,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "cic0009"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 23,
+        "end": 28,
+        "extractor": "DIETClassifier",
+        "value": "serie"
+      }
+    ]
+  },
+  {
+    "text": "¿me puedes imprimir la gráfica de los datos temporales?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 54,
+        "value": "datos temporales",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 38,
+        "end": 54,
+        "extractor": "DIETClassifier",
+        "value": "datos temporales"
+      }
+    ]
+  },
+  {
+    "text": "Para los días entre 2016-11-11 y 2017-08-04 imprimeme la serie temporal",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "2016-11-11",
+        "entity": "fecha"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "2017-08-04",
+        "entity": "fecha"
+      },
+      {
+        "start": 57,
+        "end": 71,
+        "value": "serie temporal",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 20,
+        "end": 30,
+        "extractor": "DIETClassifier",
+        "value": "2016-11-11"
+      },
+      {
+        "entity": "fecha",
+        "start": 33,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "2017-08-04"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 57,
+        "end": 71,
+        "extractor": "DIETClassifier",
+        "value": "serie temporal"
+      }
+    ]
+  },
+  {
+    "text": "Hazme un plot de la serie",
+    "entities": [
+      {
+        "start": 20,
+        "end": 25,
+        "value": "serie",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 20,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "serie"
+      }
+    ]
+  },
+  {
+    "text": "te puedo pedir la grafica de para serie temporal?",
+    "entities": [
+      {
+        "start": 34,
+        "end": 48,
+        "value": "serie temporal",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 34,
+        "end": 48,
+        "extractor": "DIETClassifier",
+        "value": "serie temporal"
+      }
+    ]
+  },
+  {
+    "text": "que te parece si te pido para cic0009 que me imprimas la forma de sus datos temporales",
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "value": "cic0009",
+        "entity": "senal"
+      },
+      {
+        "start": 70,
+        "end": 86,
+        "value": "datos temporales",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 30,
+        "end": 37,
+        "extractor": "DIETClassifier",
+        "value": "cic0009"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 70,
+        "end": 86,
+        "extractor": "DIETClassifier",
+        "value": "datos temporales"
+      }
+    ]
+  },
+  {
+    "text": "Me solicitan la imagen de la serie temporal de una var",
+    "entities": [
+      {
+        "start": 29,
+        "end": 43,
+        "value": "serie temporal",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 29,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "serie temporal"
+      }
+    ]
+  },
+  {
+    "text": "Necesitaría ver las cifras temporales, puedes darmela de cic0006?",
+    "entities": [
+      {
+        "start": 20,
+        "end": 37,
+        "value": "cifras temporales",
+        "entity": "tipo_grafica"
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "value": "cic0006",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 20,
+        "end": 37,
+        "extractor": "DIETClassifier",
+        "value": "cifras temporales"
+      },
+      {
+        "entity": "senal",
+        "start": 57,
+        "end": 64,
+        "extractor": "DIETClassifier",
+        "value": "cic0006"
+      }
+    ]
+  },
+  {
+    "text": "necesito ver que forma tiene la serie temporal de CIC0007",
+    "entities": [
+      {
+        "start": 32,
+        "end": 46,
+        "value": "serie temporal",
+        "entity": "tipo_grafica"
+      },
+      {
+        "start": 50,
+        "end": 57,
+        "value": "CIC0007",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 32,
+        "end": 46,
+        "extractor": "DIETClassifier",
+        "value": "serie temporal"
+      },
+      {
+        "entity": "senal",
+        "start": 50,
+        "end": 57,
+        "extractor": "DIETClassifier",
+        "value": "CIC0007"
+      }
+    ]
+  },
+  {
+    "text": "Para la sñal cic0010 y las fechs 2017-01-12 y 2017-06-24 quiero ver como es su serie",
+    "entities": [
+      {
+        "start": 13,
+        "end": 20,
+        "value": "cic0010",
+        "entity": "senal"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "2017-01-12",
+        "entity": "fecha"
+      },
+      {
+        "start": 46,
+        "end": 56,
+        "value": "2017-06-24",
+        "entity": "fecha"
+      },
+      {
+        "start": 79,
+        "end": 84,
+        "value": "serie",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 13,
+        "end": 20,
+        "extractor": "DIETClassifier",
+        "value": "cic0010"
+      },
+      {
+        "entity": "fecha",
+        "start": 33,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "2017-01-12"
+      },
+      {
+        "entity": "fecha",
+        "start": 46,
+        "end": 56,
+        "extractor": "DIETClassifier",
+        "value": "2017-06-24"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 79,
+        "end": 84,
+        "extractor": "DIETClassifier",
+        "value": "serie"
+      }
+    ]
+  },
+  {
+    "text": "Para cic0008 necesitamos visualizar las barras",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "cic0008",
+        "entity": "senal"
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "value": "barras",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 5,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "cic0008"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 40,
+        "end": 46,
+        "extractor": "DIETClassifier",
+        "value": "barras"
+      }
+    ]
+  },
+  {
+    "text": "Quiero un plot del hist para cic0012 entre 2016-14-14 y 2016-03-14",
+    "entities": [
+      {
+        "start": 19,
+        "end": 23,
+        "value": "hist",
+        "entity": "tipo_grafica"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "value": "cic0012",
+        "entity": "senal"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "value": "2016-14-14",
+        "entity": "fecha"
+      },
+      {
+        "start": 56,
+        "end": 66,
+        "value": "2016-03-14",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 19,
+        "end": 23,
+        "extractor": "DIETClassifier",
+        "value": "hist"
+      },
+      {
+        "entity": "senal",
+        "start": 29,
+        "end": 36,
+        "extractor": "DIETClassifier",
+        "value": "cic0012"
+      },
+      {
+        "entity": "fecha",
+        "start": 43,
+        "end": 53,
+        "extractor": "DIETClassifier",
+        "value": "2016-14-14"
+      },
+      {
+        "entity": "fecha",
+        "start": 56,
+        "end": 66,
+        "extractor": "DIETClassifier",
+        "value": "2016-03-14"
+      }
+    ]
+  },
+  {
+    "text": "Nos solicitan un histograma para cic0008, puedes proporcinarlo?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "histograma",
+        "entity": "tipo_grafica"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "value": "cic0008",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 17,
+        "end": 27,
+        "extractor": "DIETClassifier",
+        "value": "histograma"
+      },
+      {
+        "entity": "senal",
+        "start": 33,
+        "end": 40,
+        "extractor": "DIETClassifier",
+        "value": "cic0008"
+      }
+    ]
+  },
+  {
+    "text": "Me gustaría visualizar en forma de histograma los valores de una variable",
+    "entities": [
+      {
+        "start": 35,
+        "end": 45,
+        "value": "histograma",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 35,
+        "end": 45,
+        "extractor": "DIETClassifier",
+        "value": "histograma"
+      }
+    ]
+  },
+  {
+    "text": "Comparteme entre 2016-24-11 y 2017-06-19  la img de un hist",
+    "entities": [
+      {
+        "start": 17,
+        "end": 27,
+        "value": "2016-24-11",
+        "entity": "fecha"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "value": "2017-06-19",
+        "entity": "fecha"
+      },
+      {
+        "start": 55,
+        "end": 59,
+        "value": "hist",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 17,
+        "end": 27,
+        "extractor": "DIETClassifier",
+        "value": "2016-24-11"
+      },
+      {
+        "entity": "fecha",
+        "start": 30,
+        "end": 40,
+        "extractor": "DIETClassifier",
+        "value": "2017-06-19"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 55,
+        "end": 59,
+        "extractor": "DIETClassifier",
+        "value": "hist"
+      }
+    ]
+  },
+  {
+    "text": "podriamos solicitarte una imagen con barras para un determinado id",
+    "entities": [
+      {
+        "start": 37,
+        "end": 43,
+        "value": "barras",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 37,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "barras"
+      }
+    ]
+  },
+  {
+    "text": "Devuelveme la imagen esa de las barras, no recuerdo su nombre",
+    "entities": [
+      {
+        "start": 32,
+        "end": 38,
+        "value": "barras",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 32,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "barras"
+      }
+    ]
+  },
+  {
+    "text": "Tienes porai el histograma de CIC0009, imprimemelo",
+    "entities": [
+      {
+        "start": 16,
+        "end": 26,
+        "value": "histograma",
+        "entity": "tipo_grafica"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "value": "CIC0009",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 16,
+        "end": 26,
+        "extractor": "DIETClassifier",
+        "value": "histograma"
+      },
+      {
+        "entity": "senal",
+        "start": 30,
+        "end": 37,
+        "extractor": "DIETClassifier",
+        "value": "CIC0009"
+      }
+    ]
+  },
+  {
+    "text": "Para el tag CIC0005 que forma tiene su hist",
+    "entities": [
+      {
+        "start": 12,
+        "end": 19,
+        "value": "CIC0005",
+        "entity": "senal"
+      },
+      {
+        "start": 39,
+        "end": 43,
+        "value": "hist",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 12,
+        "end": 19,
+        "extractor": "DIETClassifier",
+        "value": "CIC0005"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 39,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "hist"
+      }
+    ]
+  },
+  {
+    "text": "podrias enseñarme el hist pra una sñl, porfa",
+    "entities": [
+      {
+        "start": 21,
+        "end": 25,
+        "value": "hist",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo_grafica",
+        "start": 21,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "hist"
+      }
+    ]
+  },
+  {
+    "text": "Para los dias entre 2018-01-16 y 2018-03-17 dame las barras",
+    "entities": [
+      {
+        "start": 20,
+        "end": 30,
+        "value": "2018-01-16",
+        "entity": "fecha"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "value": "2018-03-17",
+        "entity": "fecha"
+      },
+      {
+        "start": 53,
+        "end": 59,
+        "value": "barras",
+        "entity": "tipo_grafica"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 20,
+        "end": 30,
+        "extractor": "DIETClassifier",
+        "value": "2018-01-16"
+      },
+      {
+        "entity": "fecha",
+        "start": 33,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "2018-03-17"
+      },
+      {
+        "entity": "tipo_grafica",
+        "start": 53,
+        "end": 59,
+        "extractor": "DIETClassifier",
+        "value": "barras"
+      }
+    ]
+  },
+  {
+    "text": "Me solitan la unidad del tag",
+    "entities": [
+      {
+        "start": 14,
+        "end": 20,
+        "value": "unidad",
+        "entity": "unidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unidad",
+        "start": 14,
+        "end": 20,
+        "extractor": "DIETClassifier",
+        "value": "unidad"
+      }
+    ]
+  },
+  {
+    "text": "No se lo que es cic0002, ¿ me la describes=",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "cic0002",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 16,
+        "end": 23,
+        "extractor": "DIETClassifier",
+        "value": "cic0002"
+      }
+    ]
+  },
+  {
+    "text": "Me dices la info de cic0006 por favor",
+    "entities": [
+      {
+        "start": 20,
+        "end": 27,
+        "value": "cic0006",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 20,
+        "end": 27,
+        "extractor": "DIETClassifier",
+        "value": "cic0006"
+      }
+    ]
+  },
+  {
+    "text": "ahora necesitamos q me des la unidad de otra var",
+    "entities": [
+      {
+        "start": 30,
+        "end": 36,
+        "value": "unidad",
+        "entity": "unidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "unidad",
+        "start": 30,
+        "end": 36,
+        "extractor": "DIETClassifier",
+        "value": "unidad"
+      }
+    ]
+  },
+  {
+    "text": "De cic0010 dame todo lo que tengas disponible",
+    "entities": [
+      {
+        "start": 3,
+        "end": 10,
+        "value": "cic0010",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 3,
+        "end": 10,
+        "extractor": "DIETClassifier",
+        "value": "cic0010"
+      }
+    ]
+  },
+  {
+    "text": "el tipo y descripcion de cic0006 por favor",
+    "entities": [
+      {
+        "start": 3,
+        "end": 7,
+        "value": "tipo",
+        "entity": "tipo"
+      },
+      {
+        "start": 10,
+        "end": 21,
+        "value": "descripcion",
+        "entity": "descripcion"
+      },
+      {
+        "start": 25,
+        "end": 32,
+        "value": "cic0006",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "tipo",
+        "start": 3,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "tipo"
+      },
+      {
+        "entity": "descripcion",
+        "start": 10,
+        "end": 21,
+        "extractor": "DIETClassifier",
+        "value": "descripcion"
+      },
+      {
+        "entity": "senal",
+        "start": 25,
+        "end": 32,
+        "extractor": "DIETClassifier",
+        "value": "cic0006"
+      }
+    ]
+  },
+  {
+    "text": "Me gustaría cononer lo que sabes de CIC0003",
+    "entities": [
+      {
+        "start": 36,
+        "end": 43,
+        "value": "CIC0003",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 36,
+        "end": 43,
+        "extractor": "DIETClassifier",
+        "value": "CIC0003"
+      }
+    ]
+  },
+  {
+    "text": "Pra cic0011 neceaitamos conocr la unid",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "cic0011",
+        "entity": "senal"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "value": "unid",
+        "entity": "unidad"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 4,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "cic0011"
+      },
+      {
+        "entity": "unidad",
+        "start": 34,
+        "end": 38,
+        "extractor": "DIETClassifier",
+        "value": "unid"
+      }
+    ]
+  },
+  {
+    "text": "calculame los estadisticos de cic0011",
+    "entities": [
+      {
+        "start": 30,
+        "end": 37,
+        "value": "cic0011",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 30,
+        "end": 37,
+        "extractor": "DIETClassifier",
+        "value": "cic0011"
+      }
+    ]
+  },
+  {
+    "text": "danos los estadisticos desde el día 2017-12-06 hasta l día 2018-08-27 de cic0005",
+    "entities": [
+      {
+        "start": 36,
+        "end": 46,
+        "value": "2017-12-06",
+        "entity": "fecha"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "value": "2018-08-27",
+        "entity": "fecha"
+      },
+      {
+        "start": 73,
+        "end": 80,
+        "value": "cic0005",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 36,
+        "end": 46,
+        "extractor": "DIETClassifier",
+        "value": "2017-12-06"
+      },
+      {
+        "entity": "fecha",
+        "start": 59,
+        "end": 69,
+        "extractor": "DIETClassifier",
+        "value": "2018-08-27"
+      },
+      {
+        "entity": "senal",
+        "start": 73,
+        "end": 80,
+        "extractor": "DIETClassifier",
+        "value": "cic0005"
+      }
+    ]
+  },
+  {
+    "text": "Queremos un sumario del id cic0004 lo antes posible",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "cic0004",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 27,
+        "end": 34,
+        "extractor": "DIETClassifier",
+        "value": "cic0004"
+      }
+    ]
+  },
+  {
+    "text": "quiero que me des la media y los percentils entre 2016-02-26 y 2017-07-17",
+    "entities": [
+      {
+        "start": 50,
+        "end": 60,
+        "value": "2016-02-26",
+        "entity": "fecha"
+      },
+      {
+        "start": 63,
+        "end": 73,
+        "value": "2017-07-17",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 50,
+        "end": 60,
+        "extractor": "DIETClassifier",
+        "value": "2016-02-26"
+      },
+      {
+        "entity": "fecha",
+        "start": 63,
+        "end": 73,
+        "extractor": "DIETClassifier",
+        "value": "2017-07-17"
+      }
+    ]
+  },
+  {
+    "text": "¿podrias entregarme un resumen del id siguiente, cic0003?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 56,
+        "value": "cic0003",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 49,
+        "end": 56,
+        "extractor": "DIETClassifier",
+        "value": "cic0003"
+      }
+    ]
+  },
+  {
+    "text": "Las mmetrcas de CIC0006",
+    "entities": [
+      {
+        "start": 16,
+        "end": 23,
+        "value": "CIC0006",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 16,
+        "end": 23,
+        "extractor": "DIETClassifier",
+        "value": "CIC0006"
+      }
+    ]
+  },
+  {
+    "text": "Dame la info estadística dsd el día 2018-02-16 asta el día 2018-08-17",
+    "entities": [
+      {
+        "start": 36,
+        "end": 46,
+        "value": "2018-02-16",
+        "entity": "fecha"
+      },
+      {
+        "start": 59,
+        "end": 69,
+        "value": "2018-08-17",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 36,
+        "end": 46,
+        "extractor": "DIETClassifier",
+        "value": "2018-02-16"
+      },
+      {
+        "entity": "fecha",
+        "start": 59,
+        "end": 69,
+        "extractor": "DIETClassifier",
+        "value": "2018-08-17"
+      }
+    ]
+  },
+  {
+    "text": "Entre las fhas 2013-04-26 hasta el día 2017-07-20 quiero q me proporcions unas metricas",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "2013-04-26",
+        "entity": "fecha"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "value": "2017-07-20",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 15,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "2013-04-26"
+      },
+      {
+        "entity": "fecha",
+        "start": 39,
+        "end": 49,
+        "extractor": "DIETClassifier",
+        "value": "2017-07-20"
+      }
+    ]
+  },
+  {
+    "text": "Para cic0003 me piden la media",
+    "entities": [
+      {
+        "start": 5,
+        "end": 12,
+        "value": "cic0003",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 5,
+        "end": 12,
+        "extractor": "DIETClassifier",
+        "value": "cic0003"
+      }
+    ]
+  },
+  {
+    "text": "Desde la fecha 2017-04-16 hasta el día 2018-07-25 quiero un sumario de un tag",
+    "entities": [
+      {
+        "start": 15,
+        "end": 25,
+        "value": "2017-04-16",
+        "entity": "fecha"
+      },
+      {
+        "start": 39,
+        "end": 49,
+        "value": "2018-07-25",
+        "entity": "fecha"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "fecha",
+        "start": 15,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "2017-04-16"
+      },
+      {
+        "entity": "fecha",
+        "start": 39,
+        "end": 49,
+        "extractor": "DIETClassifier",
+        "value": "2018-07-25"
+      }
+    ]
+  },
+  {
+    "text": "cc0002",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cc0002",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 0,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "cc0002"
+      }
+    ]
+  },
+  {
+    "text": "cic001",
+    "entities": [
+      {
+        "start": 0,
+        "end": 6,
+        "value": "cic001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 0,
+        "end": 6,
+        "extractor": "DIETClassifier",
+        "value": "cic001"
+      }
+    ]
+  },
+  {
+    "text": "del identificador cic0001",
+    "entities": [
+      {
+        "start": 18,
+        "end": 25,
+        "value": "cic0001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 18,
+        "end": 25,
+        "extractor": "DIETClassifier",
+        "value": "cic0001"
+      }
+    ]
+  },
+  {
+    "text": "var CIC0001",
+    "entities": [
+      {
+        "start": 4,
+        "end": 11,
+        "value": "CIC0001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 4,
+        "end": 11,
+        "extractor": "DIETClassifier",
+        "value": "CIC0001"
+      }
+    ]
+  },
+  {
+    "text": "CICI001",
+    "entities": [
+      {
+        "start": 0,
+        "end": 7,
+        "value": "CICI001",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 0,
+        "end": 7,
+        "extractor": "DIETClassifier",
+        "value": "CICI001"
+      }
+    ]
+  },
+  {
+    "text": "numero cic0005",
+    "entities": [
+      {
+        "start": 7,
+        "end": 14,
+        "value": "cic0005",
+        "entity": "senal"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "senal",
+        "start": 7,
+        "end": 14,
+        "extractor": "DIETClassifier",
+        "value": "cic0005"
+      }
+    ]
+  }
+]

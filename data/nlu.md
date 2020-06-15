@@ -1,0 +1,342 @@
+## intent:saludo
+- hola
+- Muy buenas
+- Epaa
+- Hola!
+- cómo estas?
+- hola qué tal
+- hola cómo estás?
+- Aupa
+- Aupi
+- holi
+- ey
+- heey
+- ola
+- hola qué tal!
+- Holaaaaaa
+- Buenas
+- Buenos días
+- Buenas tardes
+- Buenos diasss
+- hola holaaa
+- que hay?
+- ¿Cómo va?
+- Saludos
+
+## intent:buen_humor
+- Perfecto
+- Bien
+- Genial!
+- Muy bien
+- Qué bien!
+- Buenísimo
+- Excelente
+- increíble
+- Asombroso!!
+- Maravillosoo
+- Eres de gran ayuda
+- Buen trabajo!
+- chachii
+- Estupendo
+- Magnifico
+- Fenomeno
+- Fenomenal
+- Extraordinario
+- bien bien
+- Gran trabajo
+
+## intent:agradecer
+- Gracias
+- Muchas gracias
+- gracias por la ayuda
+- graciassss
+- muchas muchas gracias
+- grx
+- Era lo que necesitaba, gracias
+- muchas gracias
+- gracias
+- de verdad gracias
+- te lo agradezco
+- Thank you
+- Thanks
+- Agradecido
+- En serio gracias
+- grax
+- Gracias de verdad
+- Gracias por tu ayuda
+- Justo lo que necesitaba gracias
+
+## intent:despedida
+- Adios
+- Adiós
+- Ciao
+- Chao
+- chao chao
+- Nos vemos
+- hasta pronto
+- Hasta luego
+- Hasta la próxima
+- ok, adios
+- te hablo luego
+- te hablo más tarde
+- Chao, buen trabajo!
+- excelente, muchas gracias!
+- adios!
+- adiossss
+- Un saludo
+- Me despido
+- bye
+
+## intent:grafica
+- img [CIC0010](senal) fechas [2016-12-13](fecha) y [2017-11-13](fecha)
+- quiero la gráfica de la señal [cic0001](senal) desde la fecha [2016-03-06](fecha) hasta la fecha [2018-11-06](fecha)
+- ahora quiero la visualizacion de la señal [cic0001](senal) entre las fechas [2017-08-25](fecha) y [2018-06-08](fecha)
+- Quiero ver el aspecto que tiene la variable [CIC0001](senal) entre las fechas [2017-07-11](fecha) y [2018-07-29](fecha
+- me hace falta el dibujo de [CIC0006](senal) entre las fechas [2017-12-06](fecha) y [2017-12-29](fecha)
+- quiero la imagen de una variable entre las fechas [2016-12-30](fecha) y [2017-02-05](fecha)
+- Podrías darme la imagen entre las fechas [2016-11-08](fecha) y [2018-03-25](fecha)?
+- deseo la figura desde [2017-03-06](fecha) hasta [2018-02-02](fecha) de [CIC0004](senal)
+- requiero la imagen con fechas [2017-06-05](fecha) y [2018-05-29](fecha) del id [cic0005](senal)
+- Pintame la gráfica para las fechas [2016-01-05](fecha) y [2017-12-26](fecha) del tag [CIC0012](senal)
+- desde la fecha [2016-03-06](fecha) hasta la fecha [2018-11-64](fecha) quiero la gráfica de la señal [CIC0001](senal)
+- desde el día [2016-12-06](fecha) hasta [2017-08-27](fecha) necesito la variable [cic0003](senal)
+- entre [2016-11-25](fecha) y [2018-02-27](fecha) Representa graficamente la variable [cic0009](senal)
+- Me gustaría ver la gráfica de la variable [cic0003](senal)
+- ¿Puedes proporcionarme la gráfica de la señal [cic0001](senal)?
+- pintame los datos de la señal [CIC0006](senal)
+- ¿Cual es la gráfica de la variable  [CIC0010](senal)?
+- requiero la gráfica de la variable [cic0010](senal)
+- prodría proporcioname la imagen del id [CIC0012](senal)
+- me hace falta la grafica de [CIC0009](senal)?
+- necesito la gráfica de la señal [CIC0007](senal)
+- dame el dibujo de a variable [CIC0008](senal)
+- puedas darme la representacion de [cic0009](senal)
+- ¿Me puedes devolver la grafica para la señal [CIC0002](senal)?
+- Dibuja la gráfica del id [CIC0011](senal)
+- Necesito la visualización del tag [cic0006](senal)
+- Pinta la variable [CIC0002](senal)
+- necesito una grafica
+- Necesito ver la gráfica
+- ver los datos
+- ver el aspecto que tiene
+- forma de los datos
+- grafica
+- imagen
+- necesito la grafica
+- quiero la gráfica
+- representacion de los datos
+- imagen del id
+- Pintar
+- Representación
+- Visualización
+- Dibujar
+- aspecto
+- quiero la grafica entre [2017-05-05](fecha) y [2018-05-05](fecha) del id [cic0009](senal)
+
+## intent:grafica_serie
+- quiero la [secuencia temporal](tipo_grafica) de la señal [cic0001](senal) desde la fecha [2016-03-06](fecha) hasta la fecha [2018-11-06](fecha)
+- quisiera saber  cual es la [serie](tipo_grafica) que hace referencia al ID [CIC0008](senal) y a las fechas [2017-08-12](fecha) y [2018-01-04](fecha)
+- dame la [serie temporal](tipo_grafica) del id [cic0012](senal) entre las fechas [2017-05-05](fecha)  y [2018-05-05](fecha)
+- ahora necesito la imagen de una [serie](tipo_grafica) entre las fechas [2017-08-29](fecha) y [2017-11-12](fecha)
+- Entregame la [serie](tipo_grafica) de [cic0008](senal) entre los días [2017-09-26](fecha) y [2018-06-29](fecha)
+- entre [2017-08-05](fecha) y [2018-06-25](fecha) proporcioname los [datos temporales](tipo_grafica) para [cic0008](senal)
+- Necesito que me proporciones la [serie](tipo_grafica) para el tag [cic0009](senal) para las fechas [2016-05-15](fecha) y [2018-08-14](fecha)
+- entre las fechas [2016-11-08](fecha) y [2018-03-25](fecha) podrías darme la [serie](tipo_grafica)?
+- ahora quiero una [serie temporal](tipo_grafica) entre las fechas [2017-11-05](fecha) y [2018-09-24](fecha)
+- entre las fechas [2016-11-25](fecha) y [2018-09-14](fecha) necesito una [serie](tipo_grafica)
+- necesito una [secuencia temporal](tipo_grafica) entre [2017-05-05](fecha) y [2018-05-05](fecha)
+- la [secuencia temporal](tipo_grafica) de [cic0008](senal)
+- ¿Puedes proporcionarme los [datos temporales](tipo_grafica) de la señal [cic0001](senal)?
+- ¿Me puedes devolver la [serie](tipo_grafica) para la señal [CIC0002](senal)?
+- Puedes darme la gráfica de la [serie](tipo_grafica) del tag [CIC0004](senal)
+- la [serie](tipo_grafica) de [cic0007](senal)
+- quiero la [serie](tipo_grafica) de la variable [cic0008](senal)
+- puedes darme los [datos temporales](tipo_grafica) referentes al id [cic0010](senal)
+- Hazme el favor de imprimirme la [secuencia temporal](tipo_grafica) de [CIC0012](senal)
+- Necesito conocer la [serie](tipo_grafica) de la columnas [CIC0005](senal)
+- imprímeme la imagen de la [serie](tipo_grafica) de [CIC0006](senal)
+- podrías devolverme la representación gráfica de los [datos_temporales](tipo_grafica) del id [CIC0001](senal) ?
+- [datos temporales](tipo_grafica)
+- [cifras temporales](tipo_grafica)
+- [secuencia temporal](tipo_grafica)
+- dame los datos de la [serie](tipo_grafica)
+- quiero la [serie](tipo_grafica)
+- [serie](tipo_grafica)
+- quiero la [cifras temporales](tipo_grafica) de una señal
+- necesito la gráfica de la [cifras temporales](tipo_grafica)
+- necesito la [serie](tipo_grafica)
+- Puedes darme la gráfica de la [serie](tipo_grafica)
+- necesito la imagen de los [datos temporales](tipo_grafica)
+
+## intent:grafica_hist
+- desde [2015-03-06](fecha) hasta [2017-02-02](fecha) quiero visualizar el [histograma](tipo_grafica) de [CIC0002](senal)
+- Quiero el [histograma](tipo_grafica) la variable [cic0007](senal) desde el día [2017-12-06](fecha)  hasta el día [2018-08-27](fecha)
+- me gustaría saber cual es el [histograma](tipo_grafica) que hace referencia al id [cic0009](senal) y a las fechas y horas [2016-12-06](fecha) y [2017-08-27](fecha)
+- Hazme el favor de proporcionarme el [histograma](tipo_grafica) de id [cic0008](senal) entre las fechas [2016-10-10](fecha) y [2018-09-09](fecha)
+- entre los días [2017-08-25](fecha) y [2017-12-13](fecha) entregame la figura de las [barras](tipo_grafica) del tag [cic0006](senal)
+- Puedes entregarme el [histograma](tipo_grafica) de  [CIC0002](senal) para los días entre [2017-01-05](fecha) y [2018-09-11](fecha)
+- para las fechas [2017-06-15](fecha) y [2018-09-14](fecha) imprimeme el [histograma](tipo_grafica) de la variable [cic0011](senal)
+- Podrías darme la [histograma](tipo_grafica) entre las fechas [2016-11-08](fecha) y [2018-03-25](fecha)?
+- ahora quiero el [histograma](tipo_grafica) entre las fechas [2016-11-25](fecha) y [2018-02-26](fecha)
+- dame el [histograma](tipo_grafica) entre las fechas [2017-05-05](fecha) y [2018-02-09](fecha)
+- quiero un [histograma](tipo_grafica) entra las fechas [2017-05-09](fecha) y [2018-06-04](fecha)
+- necesito un [histograma](tipo_grafica) entre las fechas [2017-05-05](fecha) y [2018-05-05](fecha)
+- ¿Me puedes devolver la [histograma](tipo_grafica) para la señal [CIC0002](senal)?
+- Por favor, necesito conocer la grafica del [histograma](tipo_grafica) de [CIC0011](senal)
+- ¿Puedes proporcionarme el [histograma](tipo_grafica) de la señal [cic0001](senal)?
+- Quiero un [histograma](tipo_grafica) para la variable [CIC0002](senal)
+- Un [histograma](tipo_grafica) para [cic0007](senal)
+- Una representación de [barras](tipo_grafica) para el tag [CIC0010](senal)
+- Por favor necesito que imprimas el [histograma](tipo_grafica) para la variable [CIC0012](senal)
+- Proporcioname la imagen del [histograma](tipo_grafica) para la señal [CIC0011](senal)
+- Me gustaría que me entregaras que [histograma](tipo_grafica) del id [CIC0008](senal)
+- Quiero conocer la imagen de [barras](tipo_grafica) para el tag [cic0003](senal)
+- Me gustaría que me entregaras el [histograma](tipo_grafica) para la columnas [CIC0010](senal)
+- necesito un [histograma](tipo_grafica)
+- necesito ahora un [histograma](tipo_grafica)
+- [histograma](tipo_grafica)
+- [barras](tipo_grafica)
+- quiero la imagen de un [histograma](tipo_grafica)
+- quiero la gráfica de [barras](tipo_grafica) de una variable
+- el [histograma](tipo_grafica) de un id
+- ahora necesito la imagen del [histograma](tipo_grafica)
+- dame la representación de las [barras](tipo_grafica)
+- imprímeme la visualización de un [histograma](tipo_grafica)
+
+## intent:informacion
+- ¿Puedes proporcionarme la información de la señal [cic0001](senal)?
+- ¿Me puedes devolver para la señal [CIC0002](senal) la [unidad](unidad)?
+- información de [CIC0002](senal)
+- quiero saber el [tipo](tipo) de la variable [cic0003](senal)
+- dame de [CIC0004](senal) la [descripción](descripcion)
+- necesito los detalles del id [cic0005](senal)
+- Me gustaría saber de [CIC0006](senal) la [descripcion](descripcion), también su [tipo](tipo) y [unidad](unidad)
+- quiero saber de que [tipo](tipo) es la señal [cic0007](senal)
+- Requiero las [unidades](unidad) de la señal [CIC0008](senal)
+- Calculame de [cic0009](senal) la [unidad](unidad)
+- recuperame la [descripción](descripcion) del id [CIC0010](senal)
+- Dame la [unidad](unidad), la [descripción](descripcion) y el [tipo](tipo) de la señal [CIC0011](senal)
+- necesito toda la informacion que tengas sobre la variable [CIC0002](senal)
+- toda la información que dispongas sobre la señal [cic0009](senal)
+- Dime la [descripción](descripcion) que tengas de la señal [cic0005](senal)
+- Me gustaría conocer las [unidades](unidad) referidas a la señal [cic0001](senal)
+- que puedes decirme de [CIC0006](senal)?
+- Cuentame de la columna [CIC0007](senal) que [tipo](tipo) es
+- Recita de la variable [CIC0010](senal) toda la información
+- Cuentame la [descripción](descripcion) de un tag
+- dame ahora el [tipo](tipo)
+- quiero saber qué es la senal [cic0005](senal) y su [unidad](unidad)
+- Podrías darme la [descripción](descripcion) ?
+- necesito el [tipo](tipo) de una señal
+- quiero las [unidades](unidad)
+- podrías dame la [descripcion](descripcion)
+- Enunciame que [tipo](tipo) y [unidades](unidad) tiene un tag
+- Exponme la [descripcion](descripcion) de un id
+- [unidad](unidad)
+- [unidades](unidad)
+- [tipo](tipo)
+- [descripción](descripcion)
+- [descripcion](descripcion)
+- quieor toda la información que tengas sobre una señal
+- necesito ahora toda la informacion que tengas de una variable
+- ahora necesito toda la informacion que tengas sobre una variable
+- necesito toda la informacion que tengas sobre una variable
+- Dame todo la información disponible de una señal
+- dame todo lo que tengas
+- requiero todo lo que sepas
+- información
+- info
+- toda la informacón
+- la información que tengas
+- todo lo que tengas
+- que sabes de
+
+## intent:descripcion
+- quiero las metricas desde la fecha [2016-11-26](fecha) hasta [2017-04-24](fecha)
+- quiero la media entre las fechas [2016-12-05](fecha) y [2018-09-11](fecha)
+- quiero las metricas desde la fecha [2017-08-06](fecha) hasta [2018-09-06](fecha)
+- quiero a media de una variable entre las fechas [2016-11-11](fecha) y [2017-08-04](fecha)
+- quiero las metricas entre las fechas [2017-05-05](fecha) y [2018-05-06](fecha)
+- puedes darme todos los estadisticos que tengas entre las fecha [2017-06-25](fecha) y [2018-06-24](fecha)
+- necesito las metricas entre las fechas [2017-05-09](fecha) y [2015-06-23](fecha)
+- necesito las metricas entre las fechas [2017-08-05](fecha) y [2018-05-05](fecha)
+- quiero un análisis descriptivo de la señal [cic0001](senal) desde la fecha [2016-03-06](fecha) hasta la fecha [2018-11-06](fecha)
+- análisis desde el día [2016-12-06](fecha) hasta [2017-08-27](fecha) de la variable [cic0003](senal)
+- necesito las métricas de [CIC0004](senal) desde [2017-03-06](fecha) hasta [2018-02-02](fecha)
+- quiero un resumen de los datos de la señal [cic0006](senal) desde la fecha [2016-07-26](fecha) hasta la fecha [2018-07-14](fecha)
+- dame la media desde [2016-12-06](fecha) hasta [2017-07-07](fecha) de [CIC0013](senal)
+- dame medidas de [CIC0002](senal) desde [2015-03-06](fecha) hasta [2017-02-02](fecha)
+- análisis estadistico desde el día [2017-12-06](fecha) hasta [2018-08-27](fecha) de la variable [cic0002](senal)
+- necesito la mediana y percentiles de [CIC0004](senal) desde [2017-11-12](fecha) hasta [2018-04-05](fecha)
+- entregame la análisis de los datos de [cic0007](senal) desde el día [2017-20-21](fecha) hasta el día [2018-22-27](fecha)
+- quiero un sumario de la señal [cic0009](senal)
+- dame la recopilacion de [CIC0010](senal)
+- resumen estadistico [cic0011](senal)
+- necesito los detalles de [CIC0012](senal)
+- requiero la media de la variable [cic0008](senal)
+- El resumen de la señal [CIC0006](senal)
+- ¿Puedes proporcionarme las métricas de la señal [cic0001](senal)?
+- ¿Me puedes devolver los estadísticos para la señal [CIC0002](senal)?
+- Los detalles de la variable [cic0007](senal)
+- Necesito un sumario de [CIC0008](senal)
+- Una recopilación de los datos de [cic0009](senal)
+- devuelveme el resumen estadístico de los datos que haces referencia a [CIC0010](senal)
+- dame la media del ID [cic0012](senal)
+- Podrías darme el análisis descriptivo
+- quiero un análisis descriptivo
+- necesito ahora el analisis estadistico
+- necesito un analisis estadistico
+- medidas
+- Un análisis
+- métricas
+- Un resumen
+- detalles
+- sumario
+- La recopilacion de los datos
+- resumen estadístico
+- estadísticos
+- media
+- mediana
+- percentiles
+- Hazme el resumen estadístico
+- quieor las metricas de unos datos
+- requiero las metricas
+- necesito un analisis descriptivo
+- quiero los estadisticos
+
+## intent:dar_senal
+- de la variable [cic0010](senal)
+- id [cic0006](senal)
+- de [CIC0001](senal)
+- sobre [cic0003](senal)
+- sobre [cic0006](senal)
+- [cic0007](senal)
+- sobre [cic0001](senal)
+- la [cic0001](senal)
+- de la variable [cic0002](senal)
+- sobre la señal [CIC0003](senal)
+- [cic0004](senal)
+- de la señal [cic0005](senal)
+- de [CIC0006](senal)
+- del id [CIC0007](senal)
+- [cic0001](senal)
+- sobre la señal [CIC0001](senal)
+- [CIC0006](senal)
+- del tag [CIC0005](senal)
+- tag [cic0007](senal)
+- de la variable referenciada como [CIC0008](senal)
+- la característica [cic0009](senal)
+- la columna con id [CIC0010](senal)
+- la columnas [cic0011](senal)
+
+## synonym:descripcion
+- descripción
+
+## synonym:unidad
+- unidades
+
+## regex: fecha
+- [0-9]{4}-[0-9]{2}-[0-9]{2}
+
+## regex: senal
+- [a-zA-Z]{3}[0-9]{4}

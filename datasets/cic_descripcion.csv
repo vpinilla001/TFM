@@ -1,0 +1,14 @@
+id;descripcion;unidad;tipo;Comments;Source;Explotación;Código Explotación;Nº Estación;Sistema
+CIC0001;Agua Potable.;m³;Analogico;;;;;;
+CIC0002;Gas Directo;kWh;Analogico;;;;;;
+CIC0003;Gas Tecnológico;kWh;Analogico;;;;;;
+CIC0004;Calefacción;kWh;Analogico;;;;;;
+CIC0005;Climatizadores;kWh;Analogico;;;;;;
+CIC0006;Frío;kWh;Analogico;;;;;;
+CIC0007;Alumbrado;kWh;Analogico;;;;;;
+CIC0008;Instalaciones;kWh;Analogico;;;;;;
+CIC0009;Línea de producción 1;u;Analogico;;;;;;
+CIC0010;Línea de producción 2;u;Analogico;;;;;;
+CIC0011;Línea de producción 3;u;Analogico;;;;;;
+CIC0012;Temperatura taller 11;ºC;Analogico;;;;;;
+CIC0013;Temperatura exterior;ºC;Analogico;;;;;;
