@@ -36,14 +36,14 @@ class ActionGrapichHist(Action):
         N = 20
         name = ''.join(random.choices(string.ascii_uppercase + string.digits, k=N))
 
-        id = tracker.get_slot("senal").upper()
+        ident = tracker.get_slot("senal").upper()
         fecha = tracker.get_slot("fecha")
         color = tracker.get_slot("color_value")
 
-        if fecha[0] != None and fecha[1] != None:
-            plot_hist(id, fecha[0], fecha[1] + ' ' + "23:59:59" , name, color)
+        if fecha != None:
+            plot_hist(ident, fecha[0], fecha[1] + ' ' + "23:59:59" , name, color)
         else:
-            plot_hist2(id, name, color)
+            plot_hist2(ident, name, color)
 
         path = "http://localhost:7000/img/" + name + '.png'
         dispatcher.utter_message(text="Aquí tiene su gráfica", image=path)
@@ -61,14 +61,14 @@ class ActionGrapichSerie(Action):
         N = 20
         name = ''.join(random.choices(string.ascii_uppercase + string.digits, k=N))
 
-        id = tracker.get_slot("senal").upper()
+        ident = tracker.get_slot("senal").upper()
         fecha = tracker.get_slot("fecha")
         mark = tracker.get_slot("mark_value")
 
-        if fecha[0] != None and fecha[1] != None:
-            plot_serie(id, fecha[0], fecha[1] + ' ' + "23:59:59", name, mark)
+        if fecha != None:
+            plot_serie(ident, fecha[0], fecha[1] + ' ' + "23:59:59", name, mark)
         else:
-            plot_serie2(id, name, mark)
+            plot_serie2(ident, name, mark)
 
         path = "http://localhost:7000/img/" + name + '.png'
         dispatcher.utter_message(text="Aquí tiene su gráfica", image=path)
@@ -83,39 +83,39 @@ class ActionInformation(Action):
         return "action_informacion"
 
     def run(self, dispatcher, tracker, domain):
-        id = tracker.get_slot("senal").upper()
+        ident = tracker.get_slot("senal").upper()
         descripcion = tracker.get_slot("descripcion")
         unidad = tracker.get_slot("unidad")
         tipo = tracker.get_slot("tipo")
 
         data = pd.read_csv('datasets/cic_descripcion.csv', engine='python', delimiter=';', index_col=0)
 
-        response = "La señal " + id
+        response = "La señal " + ident
         if descripcion != None and unidad == None and tipo == None:
-            descripcion_text = data[descripcion].loc[id]
+            descripcion_text = data[descripcion].loc[ident]
             response = response + " hace referencia a  " + descripcion_text
         elif descripcion == None and unidad != None and tipo == None:
-            unidad_text = data[unidad].loc[id]
+            unidad_text = data[unidad].loc[ident]
             response = response + " tiene como unidades " + unidad_text
         elif descripcion == None and unidad == None and tipo != None:
-            tipo_text = data[tipo].loc[id]
+            tipo_text = data[tipo].loc[ident]
             response = response + " es del tipo " + tipo_text
         elif descripcion != None and unidad != None and tipo == None:
-            descripcion_text = data[descripcion].loc[id]
-            unidad_text = data[unidad].loc[id]
+            descripcion_text = data[descripcion].loc[ident]
+            unidad_text = data[unidad].loc[ident]
             response = response + " hace referencia a  " + descripcion_text + " y tiene como unidades " + unidad_text
         elif descripcion != None and unidad == None and tipo != None:
-            descripcion_text = data[descripcion].loc[id]
-            tipo_text = data[tipo].loc[id]
+            descripcion_text = data[descripcion].loc[ident]
+            tipo_text = data[tipo].loc[ident]
             response =  response + " hace referencia a  " + descripcion_text + " y es del tipo " + tipo_text
         elif descripcion == None and unidad != None and tipo != None:
-            unidad_text = data[unidad].loc[id]
-            tipo_text = data[tipo].loc[id]
+            unidad_text = data[unidad].loc[ident]
+            tipo_text = data[tipo].loc[ident]
             response = response + " tiene como unidades " + unidad_text + " y es del tipo " + tipo_text
         else:
-            descripcion_text = data['descripcion'].loc[id]
-            unidad_text = data['unidad'].loc[id]
-            tipo_text = data['tipo'].loc[id]
+            descripcion_text = data['descripcion'].loc[ident]
+            unidad_text = data['unidad'].loc[ident]
+            tipo_text = data['tipo'].loc[ident]
             response = response + " hace referencia a  " + descripcion_text + ", tiene como unidades " + unidad_text + " y es del tipo " + tipo_text
 
         dispatcher.utter_message(text=response)
@@ -129,17 +129,17 @@ class ActionDescribe(Action):
         return "action_descripcion"
 
     def run(self, dispatcher, tracker, domain):
-        id = tracker.get_slot("senal").upper()
+        ident = tracker.get_slot("senal").upper()
         fecha = tracker.get_slot("fecha")
 
-        if fecha[0] != None and fecha[0] != None:
-            inf = describe_information(id, fecha[0], fecha[1] + ' ' + "23:59:59")
+        if fecha != None:
+            inf = describe_information(ident, fecha[0], fecha[1] + ' ' + "23:59:59")
         else:
-            inf = describe_information2(id)
+            inf = describe_information2(ident)
 
         n_obs = inf[0]; media = inf[1]; desv = inf[2]; min_ = inf[3]
         p_25 = inf[4]; p_50 = inf[5]; p_75 = inf[6]; max_ = inf[7]
-        response = "El análisis descriptivo de la señal {0} es el siguiente:".format(id) + "\n" + "Nº de observaciones: {0} \n Media: {1} \n Desviación: {2} \n Valor mínimo: {3} \n Percentil 25%: {4} \n Percentil 50%: {5} \n Percentil 75%: {6} \n Valor máximo: {7} \n ".format(n_obs, media, desv, min_, p_25, p_50, p_75, max_)
+        response = "El análisis descriptivo de la señal {0} es el siguiente:".format(ident) + "\n" + "Nº de observaciones: {0} \n Media: {1} \n Desviación: {2} \n Valor mínimo: {3} \n Percentil 25%: {4} \n Percentil 50%: {5} \n Percentil 75%: {6} \n Valor máximo: {7} \n ".format(n_obs, media, desv, min_, p_25, p_50, p_75, max_)
         dispatcher.utter_message(text = response)
         result = [SlotSet("senal", None), SlotSet("fecha", None)]
 
