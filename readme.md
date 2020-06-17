@@ -1,7 +1,7 @@
 ﻿# Diseño e implementación de un chatbot para el software de IDbox
 ## Máster en Ciencia de Datos 2019/20
 
-### Autor: Verónica Pinilla Gómez
+### Autora: Verónica Pinilla Gómez
 
 ## Descripción
 En este repositorio se puede consultar todo el código desarrollado en Rasa expuesto a lo largo del trabajo. 
